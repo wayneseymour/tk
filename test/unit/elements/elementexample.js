@@ -1,6 +1,7 @@
 /*global describe, beforeEach, expect, inject*/
 'use strict';
 
+// Testing an element
 describe('Example Test', function() {
   var element;
   var $scope;
