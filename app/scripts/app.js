@@ -1,13 +1,13 @@
 'use strict';
 
-angular
+var app = angular
   .module('tkApp', [
-     // 'ngCookies',
-     // 'ngResource',
-     // 'ngSanitize',
+    // 'ngCookies',
+    // 'ngResource',
+    // 'ngSanitize',
     'ngRoute'
   ])
-  .config(function ($routeProvider) {
+  .config(function($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
